@@ -1579,14 +1579,14 @@ span {
 }
 .faq-items .accordion-item .accordion-header .accordion-button::after {
   content: "";
-  background-image: url("../img/icon/arrow-up.svg");
-  background-size: 25px;
+  /* background-image: url("../img/icon/arrow-up.svg");
+  background-size: 25px; */
   transition: all 0.3s ease-in-out !important;
 }
 .faq-items .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
   content: "";
-  background-image: url("../img/icon/arrow-down.svg");
-  background-size: 25px;
+  /* background-image: url("../img/icon/arrow-down.svg"); */
+  /* background-size: 25px; */
   transform: rotate(0);
 }
 .faq-items .accordion-item .accordion-header .accordion-button.collapsed {
@@ -5409,10 +5409,6 @@ input.main-search-input::placeholder {
   }
 }
 .project-wrapper-3 .main-box .box {
-  background-image: url(../../assets/img/project/9.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   z-index: 1;
   width: 337px !important;
   height: 420px;
@@ -5479,12 +5475,6 @@ input.main-search-input::placeholder {
 }
 .project-wrapper-3 .main-box .box .project-content .icon:hover i {
   transform: rotate(0);
-}
-.project-wrapper-3 .main-box .box.bg-1 {
-  background-image: url(../../assets/img/project/10.jpg);
-}
-.project-wrapper-3 .main-box .box.bg-2 {
-  background-image: url(../../assets/img/project/11.jpg);
 }
 .project-wrapper-3 .main-box .box.active {
   width: 583px !important;
@@ -6599,4 +6589,29 @@ input.main-search-input::placeholder {
 .main-menu ul li.active > a {
     color: #28e98c !important;
 }
+
+/* Make columns stretch equally */
+.pricing-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Allow each column to stretch */
+.pricing-section .col-lg-4,
+.pricing-section .col-md-6 {
+    display: flex;
+}
+
+/* Make pricing card fill full height */
+.price-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Push button to bottom */
+.price-item .theme-btn {
+    margin-top: auto;
+}
+
 
