@@ -6414,3 +6414,189 @@ input.main-search-input::placeholder {
 .slide-btn .array-next:hover i {
   transform: rotate(0);
 }/*# sourceMappingURL=main.css.map */
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.feature-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-section .col-lg-4,
+.feature-section .col-md-6 {
+    display: flex;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.feature-item .content {
+    flex-grow: 1;
+}
+
+.service-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-section .col-lg-4,
+.service-section .col-md-6 {
+    display: flex;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.service-item .content {
+    flex-grow: 1;
+}
+
+/* General Card Style */
+.project-card{
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tags */
+.project-card .tag {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* Buttons inside cards */
+.card-btn {
+    margin-top: auto;
+    align-self: flex-end;
+    font-size: 20px;
+    color: #222;
+}
+
+
+/* Equal Height Fix */
+.project-section .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-section .col-lg-4{
+    display: flex;
+}
+
+.testimonials-card-item .thumb-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.news-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-section .col-lg-4,
+.news-section .col-md-6 {
+    display: flex;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.news-item .content {
+    flex-grow: 1;
+}
+
+.news-item .thumb img {
+    transform: none !important;
+    transition: none !important;
+}
+.news-item:hover .thumb img {
+    transform: none !important;
+}
+
+.breadcrumb-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.breadcrumb-bg-img {
+    position: absolute;
+    inset: 0;  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    z-index: -1;        
+}
+
+.testimonials-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonials-section .col-lg-6,
+.testimonials-section .col-md-6 {
+    display: flex;
+}
+
+.testimonials-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.testimonials-item .star {
+    margin-top: auto;
+}
+
+.testimonials-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.testimonials-item .thumb {
+    width: 60px;         
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;      
+    flex-shrink: 0;
+}
+
+.testimonials-item .thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.main-menu ul li.active > a {
+    color: #28e98c !important;
+}
+
